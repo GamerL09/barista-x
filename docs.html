@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="title" content="Barista-X • Docs" />
+  <meta name="description" content="List of all Barista-X commands and features." />
+  <meta name="theme-color" content="#166827" />
+  <title>Barista-X | Docs</title>
+  <link rel="stylesheet" href="d2.css" />
+  <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <img src="logo.png" alt="Barista-X Logo" />
+    </div>
+    <ul class="nav-items">
+      <div class="nav-item-1">
+        <li><a href="changelogs.html" class="nav-links">Changelog</a></li>
+        <li><a href="docs.html" class="nav-links">Documentation</a></li>
+        <li><a href="faq.html" class="nav-links">FAQs</a></li>
+      </div>
+      <div class="nav-item-2">
+        <li><a href="https://discord.gg/ew2tH5kt6F" class="nav-links">Support</a></li>
+      </div>
+    </ul>
+    <div class="hamburger"><ion-icon name="menu-outline"></ion-icon></div>
+  </nav>
+
+  <div class="page-wrapper">
+    <nav class="sidebar">
+      <h2 class="sidebar-title">Docs</h2>
+      <ul class="sidebar-links">
+        <li><a href="#economy">Economy</a></li>
+        <li><a href="#fun">Fun</a></li>
+        <li><a href="#moderation">Moderation</a></li>
+        <li><a href="#utility">Utility</a></li>
+        <li><a href="#config">Config</a></li>
+      </ul>
+    </nav>
+
+    <main class="main-content">
+      <section class="docs-section" id="economy">
+        <h2>Economy</h2>
+        <ul>
+          <li><code>!balance</code> – View your wallet and bank balance.</li>
+          <li><code>!daily</code> – Claim your daily reward.</li>
+          <li><code>!weekly</code> – Claim your weekly reward.</li>
+          <li><code>!work</code> – Work a job to earn coins.</li>
+          <li><code>!beg</code> – Beg strangers for some quick change.</li>
+          <li><code>!search</code> – Search areas to find hidden coins.</li>
+          <li><code>!gamble</code> – Gamble coins for a chance to win big.</li>
+          <li><code>!withdraw</code> – Move coins from bank to wallet.</li>
+          <li><code>!deposit</code> – Move coins from wallet to bank.</li>
+          <li><code>!give</code> – Transfer coins to another user.</li>
+        </ul>
+      </section>
+
+      <section class="docs-section" id="fun">
+        <h2>Fun</h2>
+        <ul>
+          <li><code>!meme</code> – Sends a random meme from Reddit.</li>
+          <li><code>!roast</code> – Roasts a user with a funny insult.</li>
+          <li><code>!joke</code> – Tells a random joke.</li>
+          <li><code>!pp</code> – Expose someones pp.</li>
+          <li><code>!rate</code> – Rates anything you type.</li>
+          <li><code>!simp</code> – Measures someone's simp level.</li>
+          <li><code>!8ball</code> – Ask the magic 8-ball a question.</li>
+        </ul>
+      </section>
+
+      <section class="docs-section" id="moderation">
+        <h2>Moderation</h2>
+        <ul>
+          <li><code>!ban</code> – Bans a user from the server.</li>
+          <li><code>!kick</code> – Kicks a user from the server.</li>
+          <li><code>!mute</code> – Mutes a user so they can't chat.</li>
+          <li><code>!unmute</code> – Unmutes a muted user.</li>
+          <li><code>!warn</code> – Warns a user for rule-breaking.</li>
+        </ul>
+      </section>
+
+      <section class="docs-section" id="utility">
+        <h2>Utility</h2>
+        <ul>
+          <li><code>/suggest</code> – Send a suggestion to the server admins.</li>
+          <li><code>/report</code> – Report a bug or issue with the bot.</li>
+        </ul>
+      </section>
+
+      <section class="docs-section" id="config">
+        <h2>Config (Slash Commands)</h2>
+        <ul>
+          <li><code>/apply_grinder</code> – Apply to become a grinder in the server.</li>
+          <li><code>/set_grinder_support</code> – Set support roles for grinder applications.</li>
+          <li><code>/alert</code> – View the latest server alert.</li>
+          <li><code>/tickets</code> – Set up the ticket support system.</li>
+        </ul>
+      </section>
+    </main>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-logo">
+      <div><img src="logo.png" alt="Barista-X Logo" /></div>
+      <div>
+        <h2 class="footer-logo-text">BARISTA-X</h2>
+        <p class="footer-logo-description">
+          &copy; <span id="year"></span> Barista-X. All rights reserved.
+          <script>
+            document.getElementById("year").innerText = new Date().getFullYear();
+          </script>
+        </p>
+      </div>
+    </div>
+    <div class="footer-items-wrapper">
+      <ul class="footer-items">
+        <li><a href="home.html" class="footer-links">Home</a></li>
+        <li><a href="changelogs.html" class="footer-links">Changelog</a></li>
+        <li><a href="docs.html" class="footer-links">Documentation</a></li>
+        <li><a href="faq.html" class="footer-links">FAQs</a></li>
+        <li><a href="https://discord.gg/YOURSERVER" class="footer-links">Support</a></li>
+      </ul>
+      <ul class="footer-items">
+        <li><a href="privacy.html" class="footer-links">Privacy Policy</a></li>
+        <li><a href="terms.html" class="footer-links">Terms & Conditions</a></li>
+      </ul>
+    </div>
+    <div style="margin-top: 20px;">
+      <a href="https://discord.gg/ew2tH5kt6F" target="_blank">
+        <img src="discord-logo.png" alt="Join Discord" width="32" />
+      </a>
+    </div>
+  </footer>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
+<script src="script.js"></script>

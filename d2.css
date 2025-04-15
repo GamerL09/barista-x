@@ -1,0 +1,166 @@
+body {
+    background-color: #0b0f1a;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+  }
+  
+  .navbar {
+    width: 90%;
+    background: #111827;
+    padding: 0.75em;
+    margin: 1.5vw auto;
+    display: flex;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo img {
+    width: 45px;
+  }
+  
+  .nav-items {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .nav-item-1,
+  .nav-item-2 {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav-links {
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 0.5em;
+    color: #fff;
+  }
+  
+  .nav-links:hover,
+  .nav-links.active {
+    color: #4ade80;
+  }
+  
+  .page-wrapper {
+    display: flex;
+    width: 90%;
+    margin: 2rem auto;
+    gap: 2rem;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #111827;
+    padding: 1.5rem;
+    border-radius: 8px;
+    height: fit-content;
+  }
+  
+  .sidebar-links {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .sidebar-links li {
+    margin-bottom: 1rem;
+  }
+  
+  .sidebar-links a {
+    color: #cbd5e1;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.2s ease;
+  }
+  
+  .sidebar-links a:hover {
+    color: #4ade80;
+  }
+  
+  .main-content {
+    flex: 1;
+    background-color: #0d111c;
+    padding: 2rem;
+    border-radius: 8px;
+  }
+  
+  .main-content h2 {
+    margin-top: 1rem;
+    color: #4ade80;
+  }
+  
+  .main-content p {
+    color: #d1d5db;
+    margin-top: 0.5rem;
+    line-height: 1.6;
+  }
+  
+  .footer {
+    background: #111827;
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .footer-logo img {
+    height: 80px;
+  }
+  
+  .footer-logo-description {
+    color: #9ca3af;
+  }
+  
+  .footer-items-wrapper {
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+  }
+  
+  .footer-items {
+    list-style: none;
+  }
+  
+  .footer-links {
+    text-decoration: none;
+    color: #cbd5e1;
+    display: block;
+    margin-bottom: 0.5rem;
+    transition: 0.2s ease;
+  }
+  
+  .footer-links:hover {
+    color: #4ade80;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .page-wrapper {
+      flex-direction: column;
+    }
+  
+    .sidebar {
+      width: 100%;
+    }
+  
+    .footer {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .footer-items-wrapper {
+      flex-direction: column;
+      gap: 2rem;
+      align-items: center;
+    }
+  }
+  
